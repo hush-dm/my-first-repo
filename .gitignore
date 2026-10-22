@@ -1,0 +1,45 @@
+# ===== 系统文件 =====
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+
+# ===== 编辑器 / IDE =====
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===== 密钥与环境变量（最重要，绝不能提交）=====
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.p12
+secrets.json
+
+# ===== 依赖目录 =====
+node_modules/
+vendor/
+.venv/
+venv/
+
+# ===== 构建产物 =====
+dist/
+build/
+out/
+target/
+*.pyc
+__pycache__/
+
+# ===== 日志与临时文件 =====
+*.log
+logs/
+*.tmp
+*.bak
+
+# ===== 压缩包（下载的大文件不要直接进仓库）=====
+*.zip
+*.7z
+*.rar
